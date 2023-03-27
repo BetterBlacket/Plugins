@@ -1,6 +1,6 @@
 /**
  * @name Test Plugin
- * @author Death
+ * @authorName Death
  * @authorId 3324853
  * @version 1.0.0
  * @description Whar is this?
