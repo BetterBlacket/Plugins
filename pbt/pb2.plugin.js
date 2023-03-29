@@ -6,4 +6,8 @@
  * @source https://github.com/VillainsRule/BB-Plugins/blob/main/pbt
  */
 
-alert('hi again');
+console.log('hi again');
+console.log('hi again');
+console.log('hi again');
+console.log('hi again');
+console.log('hi again');
