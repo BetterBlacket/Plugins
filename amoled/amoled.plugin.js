@@ -9,13 +9,14 @@
 $(function amoled_1() {
   try {
     let rall = (elem, css, value) => {
-      setInterval(() => 
-        if (document.querySelector(elem)) document.querySelector(elem).style[css] = value;
+      setInterval(() => {
+        if (document.querySelectorAll(elem).length) Array.from(document.querySelectorAll(elem)).forEach(t => t.style[css] = value);
       }, 25);
     };
     
     rall('input', 'backgroundColor', 'transparent')
   } catch {
+    console.log(amoled_1);
     setTimeout(amoled_1, 1)
   }
 });
