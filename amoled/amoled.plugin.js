@@ -8,7 +8,9 @@
 
 let rall = (elem, css, value) => {
   setInterval(() => {
-    if (document.querySelectorAll(elem).length) Array.from(document.querySelectorAll(elem)).forEach(t => t.style[css] = value);
+    if (document.querySelectorAll(elem).length) {
+      Array.from(document.querySelectorAll(elem)).forEach(t => t.style[css] = value);
+    };
   }, 25);
 };
     
