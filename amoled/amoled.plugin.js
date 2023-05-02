@@ -15,8 +15,8 @@ $(function amoled_1() {
     };
     
     rall('input', 'backgroundColor', 'transparent')
-  } catch {
-    console.log(amoled_1);
+  } catch(err) {
+    console.log(err);
     setTimeout(amoled_1, 1)
   }
 });
