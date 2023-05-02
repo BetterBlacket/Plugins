@@ -15,3 +15,6 @@ let rall = (elem, css, value) => {
 };
     
 rall('input', 'backgroundColor', 'transparent');
+rall('.styles__front___vcvuy-camelCase', 'backgroundColor', '#222222');
+rall('.styles__edge___3eWfq-camelCase', 'backgroundColor', '#111111');
+rall('.styles__front___vcvuy-camelCase', 'color', '#727272');
