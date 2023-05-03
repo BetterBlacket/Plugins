@@ -25,3 +25,4 @@ rall('.snipegui', 'border', 'none');
 rall('#chatDiv', 'backgroundColor', '#242424');
 rall('#chatDiv', 'border', 'none');
 rall('.styles__background___2J-JA-camelCase', 'backgroundColor', '#0e0e0e');
+rall('.bb_chat_dl', 'backgroundColor', '#111111');
