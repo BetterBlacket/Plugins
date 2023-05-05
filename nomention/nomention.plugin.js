@@ -20,7 +20,10 @@ $(function nomention1() {
       
       let aud = unsafeWindow.Audio;
       unsafeWindow.Audio = function (url) {
-        if (url === '/content/mention.ogg') return;
+        if (url === '/content/mention.ogg') return {
+          play: () => null;
+        };
+        
         return new aud(url);
       };
     } else setTimeout(nomention1, 1000);
