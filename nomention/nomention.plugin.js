@@ -12,7 +12,8 @@ $(function nomention1() {
   try {
     if (blacket && blacket.appendChat) {
       addCSS(`
-        .styles__chatMessageMention___2Z1ZU-camelCase {
+        .styles__chatMessageMention___2Z1ZU-camelCase,
+        ..styles__chatMessageMention___2Z1ZU-camelCase:hover {
           background-color: transparent;
         }
       `); // this is a native betterblacket function
