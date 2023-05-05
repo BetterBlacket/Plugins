@@ -18,8 +18,8 @@ $(function nomention1() {
         });
       }, 50);
       
-      let aud = window.Audio;
-      window.Audio = function (url) {
+      let aud = unsafeWindow.Audio;
+      unsafeWindow.Audio = function (url) {
         if (url === '/content/mention.ogg') return;
         return new aud(url);
       };
