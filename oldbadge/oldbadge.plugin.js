@@ -1,12 +1,12 @@
 /**
  * @name OldBadge
  * @authorId 3324853
- * @version 1.0.0
+ * @version 1.0.1
  * @description Revert Blacket badges to how they were before.
- * @source https://github.com/VillainsRule/BB-Plugins/blob/main/crammar
+ * @source https://github.com/VillainsRule/BB-Plugins/blob/main/oldbadge
  */
 
-(function oldbadge1() {
+$(function oldbadge1() {
   const repAll = (oldsrc, newsrc) => {
     a = Array.from(document.querySelectorAll('img'));
     a = a.filter(a => a.src === 'https://blacket.org' + oldsrc);
