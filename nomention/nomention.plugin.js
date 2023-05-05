@@ -6,7 +6,7 @@
  * @source https://github.com/VillainsRule/BB-Plugins/blob/main/nomention
  */
 
-(function nomention1() {
+$(function nomention1() {
   if (location.pathname !== '/chat') return;
 
   try {
