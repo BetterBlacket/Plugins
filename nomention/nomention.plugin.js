@@ -1,7 +1,7 @@
 /**
  * @name NoMention
  * @authorId 3324853
- * @version 1.0.0
+ * @version 1.1.0
  * @description Prevents chat mentions.
  * @source https://github.com/VillainsRule/BB-Plugins/blob/main/nomention
  */
