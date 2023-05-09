@@ -3,5 +3,6 @@
   "description": "Never be mentioned in chat.",
   "image": "",
   "author": "Death#5368",
-  "source": "https://github.com/VillainsRule/BB-Plugins/tree/main/nomention"
+  "source": "https://github.com/VillainsRule/BB-Plugins/tree/main/nomention",
+  "version": "1.0.0"
 }
